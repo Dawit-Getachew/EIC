@@ -1,0 +1,38 @@
+.add-account-btn {
+  background: #5569ff;
+  color: white;
+  padding: 10px;
+}
+
+.add-account-btn:hover {
+  background: #5569ff;
+  color: white;
+}
+
+.add-account-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: white;
+  box-shadow: 24px;
+  padding: 15px;
+}
+
+.deactivate-account-btn {
+  background: #ff1943;
+  color: white;
+  padding: 10px;
+}
+
+.deactivate-account-btn:hover {
+  background: #ff1943;
+  color: white;
+}
+
+.hr-line {
+  margin-top: 15px;
+  background: #ddd;
+  border: 1px solid #ddd;
+}

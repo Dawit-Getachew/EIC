@@ -1,0 +1,153 @@
+.new-permit-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid #1e447e 2px;
+  border-radius: 7px;
+  padding: 25px;
+  background-color: white;
+}
+
+.new-permit-header {
+  font-size: 36px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #1e447e;
+  display: flex;
+  align-self: flex-start;
+}
+
+.header-line {
+  color: #acacac;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 28px;
+}
+
+.short-header-line {
+  color: #acacac;
+  width: 100%;
+  margin-top: -3px;
+}
+
+.stepper-container {
+  display: flex;
+  align-self: center;
+  width: 100%;
+}
+
+.form-box {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  border: solid #1e447e 2px;
+  margin-top: 20px;
+}
+
+.short-form-box {
+  margin-left: 3%;
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  border: solid #1e447e 2px;
+  background-color: white;
+}
+
+.form-box-header {
+  padding: 10px;
+  background-color: #1e447e;
+  color: white;
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+.impl-h1 {
+  font-size: 20px;
+  font-family: "Inter";
+  margin: 5px;
+}
+
+.impl-h2 {
+  font-size: 16px;
+  font-family: "Roboto";
+  margin: 5px;
+}
+
+.short-form-box-header {
+  padding: 25px;
+  background-color: white;
+  color: #1e447e;
+  font-size: 34px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.form-box-content {
+  width: 100%;
+  padding: 20px;
+}
+
+.flex-r {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-element {
+  margin-top: 20px;
+}
+
+.default-input {
+  display: flex;
+}
+
+.long-input {
+  width: 33rem;
+}
+
+.short-input {
+  width: 10rem;
+}
+
+.table-title {
+  font-size: 16px;
+  color: #20102B;
+  font-family: "Poppins";
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+}
+
+.main-table {
+  width: 90%;
+}
+
+.button-text {
+  color: #20102B;
+  font-size: 16px;
+}
+
+.footer-buttons {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 28px;
+}
+
+.flex-both-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}

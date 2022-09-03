@@ -1,0 +1,23 @@
+.invest-title {
+  color: #184485;
+  font-size: 17px;
+  font-family: "Poppins";
+  margin-top: 20px;
+}
+
+.invest-sub-title {
+  color: #184485;
+  font-size: 14px;
+  font-family: "Inter";
+  margin-top: 20px;
+}
+
+.default-text-area {
+  height: 175px;
+  overflow: hidden;
+  width: 100%;
+  border: solid #f0f0f0 1px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  padding: 15px;
+}

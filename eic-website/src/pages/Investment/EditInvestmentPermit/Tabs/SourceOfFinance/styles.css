@@ -1,0 +1,16 @@
+.investment-detail-title {
+  color: #184485;
+  font-size: 16px;
+  font-family: "Poppins";
+}
+
+.investment-detail-title-default {
+  font-size: 16px;
+  font-family: "Poppins";
+}
+
+.radio-input {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}

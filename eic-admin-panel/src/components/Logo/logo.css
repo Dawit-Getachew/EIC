@@ -1,0 +1,13 @@
+.logo-img {
+  width: 80px;
+  vertical-align: middle;
+}
+
+.logo-txt {
+  width: 220px;
+  text-align: center;
+}
+
+.logo-wrapper {
+  padding: 20px 0;
+}

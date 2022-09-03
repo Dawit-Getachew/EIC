@@ -1,0 +1,38 @@
+.img-upload-wrapper {
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+}
+
+.upload-icon-btn {
+  position: absolute !important;
+  right: 0;
+  bottom: 0;
+  min-width: 0 !important;
+  padding: unset !important;
+  height: unset;
+}
+
+.upload-icon {
+  padding: 10px;
+  border-radius: 50%;
+  background: #ddd;
+  border: 1px solid #ccc;
+}
+
+.hr-line {
+  background: #f1f1f1f1;
+  color: #f1f1f1f1;
+  border: none;
+  padding: 1px;
+  height: 1px;
+  width: 100%;
+}
+
+.sml-box {
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

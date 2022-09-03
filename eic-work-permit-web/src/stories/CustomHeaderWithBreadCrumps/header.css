@@ -1,0 +1,85 @@
+
+.logo {
+  height: 35px;
+  width: 35px;
+}
+
+.profile-logo {
+  height: 45px;
+  width: 45px;
+  margin-right: 10px;
+}
+
+.vertical-image {
+  height: 45px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.wrapper {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  background-color: #063a86;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profileWrapper {
+  display: "flex";
+  flex-direction: row;
+  align-items: center;
+}
+
+.activeNavElement {
+  color: white;
+}
+
+.navElement {
+  margin: 10px;
+  color: #B3C4DB;
+}
+
+.navElement:hover {
+  margin: 10px;
+  font-family: "Poppins";
+  color: white;
+}
+
+.headerContainer {
+  background-color: #063a86;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.active {
+  color: #000000;
+}
+
+.inactive {
+  color: #444343;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  margin: 6px 0 6px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+button + button {
+  margin-left: 10px;
+  color: white;
+}
+
+.welcome {
+  font-size: 14px;
+  margin-right: 10px;
+}

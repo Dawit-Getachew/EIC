@@ -1,0 +1,23 @@
+.main-confirmation {
+  width: 100%;
+}
+
+.flex-wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.confirm-title {
+  color: #121F3E;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Poppins";
+}
+
+.confirm-description {
+  color: #444343;
+  font-size: 14px;
+  font-family: "Poppins";
+  text-align: center;
+  margin-top: 10%;
+}

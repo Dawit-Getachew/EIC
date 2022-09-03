@@ -1,0 +1,59 @@
+.sticky-feedback {
+  position: fixed;
+  right: 40px;
+  bottom: 20px;
+  z-index: 100;
+}
+
+.feedback-btn {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px 10px;
+  background: #5569ff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.feedback-box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  width: 300px;
+  background: white;
+  box-shadow: 0 0 2px 2px #ddd;
+}
+
+.sticky-feedback-wrapper {
+  position: relative;
+}
+
+.feedback-box-header {
+  padding: 10px 15px;
+  background: #5569ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.feedback-box-header svg {
+  margin-right: 15px;
+}
+
+.feedback-box-body {
+  padding: 10px;
+}
+
+.feedback-submit {
+  background: #5569ff;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.feedback-submit:hover {
+  background: #5569ff;
+}

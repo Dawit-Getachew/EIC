@@ -1,0 +1,176 @@
+.main-container {
+  width: 100%;
+  height: 50em;
+  background-color: white;
+}
+
+.top-container {
+  background-color: #0089ed;
+  width: 100%;
+  height: 60%;
+}
+
+.bottom-container {
+  background-color: white;
+  width: 100%;
+  height: 50%;
+}
+
+.logo {
+  height: 35px;
+  width: 35px;
+}
+
+.font-poppins {
+  font-family: "Poppins";
+}
+
+.font-face {
+  font-size: 31px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.left-side-container {
+  flex: 1;
+  justify-content: "flex-start";
+  align-items: "center";
+  flex-direction: column;
+}
+
+.form-container {
+  margin-top: 80px;
+  width: 544px;
+  height: 741;
+  border-radius: 40px;
+  box-shadow: -2px 2px 2px 0.75px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin-left: 120px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-top: 50px;
+}
+
+.form-title-container {
+  margin-left: 50;
+  margin-right: 50;
+}
+
+.class-sign-up-to {
+  font-size: 34px;
+  color: white;
+  margin-top: 113px;
+  font-family: Poppins;
+}
+
+.class-sign-up-to-h2 {
+  font-size: 24;
+  color: white;
+  margin-top: 15px;
+  font-family: Poppins;
+}
+
+.class-sign-up-to-h3 {
+  font-size: 14px;
+  font-family: Poppins;
+   color: white;
+   margin-top: 10px;
+   width: 290px;
+}
+
+.form-container-left {
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.form-welcome-title {
+  font-size: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Poppins";
+}
+
+.form-welcome-title-name {
+  font-size: 21px;
+  color: #0089ED;
+  font-family: "Poppins";
+}
+
+.form-welcome-signup {
+  font-size: 55px;
+  font-weight: 'bold';
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins";
+}
+
+.form-right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: -75px;
+}
+
+.form-right-side-title {
+  font-size: 16px;
+  color: #8D8D8D;
+  margin-bottom: 5px;
+  font-family: "Poppins";
+  display: flex;
+}
+
+.form-right-side-signin {
+  font-size: 16px;
+  color: #0089ED;
+  font-family: "Poppins";
+}
+
+.input-full-name {
+  width: 125%;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.input-basic {
+  background-color: white;
+  margin-top: 10px;
+}
+
+.input-basic-label {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+}
+
+.input-full-width {
+  width: 96%;
+  background-color: white;
+  margin-top: 10px;
+  font-family: "Poppins";
+}
+
+.submit-full-button {
+  width: 96%;
+}
+
+.font-poppins {
+  font-family: "Poppins";
+}

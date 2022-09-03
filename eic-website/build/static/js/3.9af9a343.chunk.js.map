@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/Intro/index.tsx"],"names":["Intro","console","log"],"mappings":"yHAAA,uBASeA,UAPD,WAEZ,OADAC,QAAQC,IAAI,WAEV","file":"static/js/3.9af9a343.chunk.js","sourcesContent":["import React from 'react';\n\nconst Intro = () => {\n  console.log(\"yasssss\")\n  return (\n    <h2>Working</h2>\n  )\n}\n\nexport default Intro"],"sourceRoot":""}

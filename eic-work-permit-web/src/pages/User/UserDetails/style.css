@@ -1,0 +1,13 @@
+.section-header {
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  margin-top: 20px;
+}
+
+.card-grid-wrapper {
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}

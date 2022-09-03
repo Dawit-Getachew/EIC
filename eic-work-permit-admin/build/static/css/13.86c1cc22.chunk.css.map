@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/pages/WorkPermit/ViewWorkPermit/styles.css"],"names":[],"mappings":"AAAA,yBACE,aAAc,CACd,mBAAqB,CACrB,qBACF","file":"13.86c1cc22.chunk.css","sourcesContent":[".react-pdf__Page__canvas {\r\n  margin: 0 auto;\r\n  width: 80% !important;\r\n  height: 100% !important;\r\n}\r\n"]}

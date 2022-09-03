@@ -1,0 +1,149 @@
+.logo {
+  height: 55px;
+  width: 55px;
+}
+
+.profile-logo {
+  height: 45px;
+  width: 45px;
+  margin-right: 10px;
+}
+
+.vertical-image {
+  height: 45px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.wrapper {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  background-color: #063a86;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profileWrapper {
+  display: "flex";
+  flex-direction: row;
+  align-items: center;
+}
+
+.activeNavElement {
+  color: white;
+}
+
+.navElement {
+  margin: 10px;
+  color: #b3c4db;
+  font-family: "Poppins";
+}
+
+.navElement:hover {
+  margin: 10px;
+  color: white;
+}
+
+.headerContainer {
+  background-color: #063a86;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  margin: 6px 0 6px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+button + button {
+  margin-left: 10px;
+  color: white;
+}
+
+.welcome {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.sidebar-container {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 2%;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.inside-main-container {
+  width: 77%;
+  padding: 50px;
+}
+
+.sidebar-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  color: black;
+  height: 58px;
+  border-radius: 5px;
+  width: 78%;
+}
+
+.inactive-sidebar {
+  color: black;
+}
+
+.active-sidebar {
+  background-image: linear-gradient(to right, #023b87, #24528f, #4d73a6);
+  color: white;
+}
+
+.sidebar-icon {
+  margin-right: 15px;
+}
+
+.vector-stroke {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.sidebar-close-icon {
+  margin-right: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sidebar-menu-icon {
+  margin-right: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sidebar-icon-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  color: black;
+  height: 58px;
+  border-radius: 5px;
+  width: 40%;
+}
