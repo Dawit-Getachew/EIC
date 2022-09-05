@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default [
   "m2",
   "m3",

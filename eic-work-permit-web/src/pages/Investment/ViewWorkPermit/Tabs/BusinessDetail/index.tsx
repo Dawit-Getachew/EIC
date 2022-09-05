@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { FC, useReducer, useEffect } from "react";
 import {
   Grid,

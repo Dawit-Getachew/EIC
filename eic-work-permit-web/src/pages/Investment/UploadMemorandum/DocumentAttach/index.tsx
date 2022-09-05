@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useState, useReducer, useEffect, FC } from "react";
 import { Grid, Button, Typography, CircularProgress } from "@mui/material";
 import "../styles.css";

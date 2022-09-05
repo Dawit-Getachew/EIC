@@ -1,4 +1,4 @@
-
+/* eslint-disable */
 const initState = {
   isAuthenticated: false,
   authenticatedUser: null,

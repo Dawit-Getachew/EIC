@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import { Typography, Grid } from "@mui/material";
 import { useNavigate } from "react-router";

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Suspense, lazy, useEffect, FC } from "react";
 import { Navigate } from "react-router-dom";
 import { PartialRouteObject, useLocation } from "react-router";

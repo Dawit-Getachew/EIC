@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState, useReducer, useEffect, FC } from "react"
 import { Grid, Button, FormControl, FormControlLabel, Radio, RadioGroup } from "@mui/material"
 import '../styles.css'

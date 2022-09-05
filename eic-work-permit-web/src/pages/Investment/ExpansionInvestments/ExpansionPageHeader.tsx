@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Typography, Grid } from "@mui/material";
 import { useNavigate } from "react-router";
 import { Selectors as BufferSelectors } from "src/store/States/Buffer";

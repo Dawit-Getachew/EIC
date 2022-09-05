@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default [ 
   "Afghanistan",
   "Åland Islands",

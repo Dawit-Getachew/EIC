@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Axios, { AxiosRequestConfig } from "axios"
 import endPoints from "src/constants/endPoints"
 import FormData from 'form-data'

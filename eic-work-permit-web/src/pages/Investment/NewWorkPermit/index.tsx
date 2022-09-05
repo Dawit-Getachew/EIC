@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useState, useEffect } from "react";
 import IntroPage from "./IntroPage";
 import MainPage from "./main";

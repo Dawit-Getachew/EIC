@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { FC, useState } from "react";
 import { Box, Grid, IconButton, Typography, Slide } from "@mui/material";
 import "./header.css";

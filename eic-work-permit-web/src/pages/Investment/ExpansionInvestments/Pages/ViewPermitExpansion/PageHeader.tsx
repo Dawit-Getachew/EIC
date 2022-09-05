@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { FC, useEffect } from "react";
 import { Typography, Grid, Box, IconButton, Tooltip } from "@mui/material";
 import PrintIcon from "@mui/icons-material/Print";

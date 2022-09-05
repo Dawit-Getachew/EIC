@@ -1,7 +1,7 @@
-import React, { useState, useReducer, useEffect, FC } from "react"
+/* eslint-disable */
+import React, { useReducer, useEffect, FC } from "react"
 import {
-  Grid, TextField, FormControl, FormLabel, RadioGroup,
-  FormControlLabel, Radio, TextareaAutosize
+  Grid, TextField, FormControl, FormLabel
 } from '@mui/material';
 import '../styles.css'
 import './investment_styles.css'

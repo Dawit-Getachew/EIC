@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useState, useEffect } from "react";
 import MainPage from "./main";
 import { useDispatch } from "react-redux";

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { FC, useEffect, useReducer, useState } from "react"
 import './styles.css'
 import {

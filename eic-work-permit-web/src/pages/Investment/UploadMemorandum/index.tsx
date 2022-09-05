@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { Actions as BufferActions } from "src/store/States/Buffer";
 import routes from "src/routes"
 
+/* eslint-disable-next-line import/no-anonymous-default-export */
 export default () => {
   const dispatch = useDispatch();
 

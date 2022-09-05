@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useEffect } from 'react';
 import { Helmet } from "react-helmet-async";
 import { Grid, Container, Card, Typography } from "@mui/material";

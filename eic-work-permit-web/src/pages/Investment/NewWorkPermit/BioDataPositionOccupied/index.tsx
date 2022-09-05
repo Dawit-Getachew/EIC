@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useReducer, useEffect, FC } from "react";
 import {
   Grid,

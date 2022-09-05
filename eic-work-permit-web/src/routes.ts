@@ -1,3 +1,4 @@
+/* eslint-disable */
 import InvestmentRoutes from "./Routes/work_permit.routes";
 
 export default {

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { FC, useState, useEffect } from "react";
 import SeparatorIcon from "src/assets/dropdown.svg";
 import Breadcrumbs from "@mui/material/Breadcrumbs";

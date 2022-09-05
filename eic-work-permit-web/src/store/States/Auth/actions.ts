@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Axios from "axios"
 import endPoints from "../../../constants/endPoints"
 import {
@@ -65,7 +66,7 @@ export const _LoginUser = ({ email, password }: ILoginAccountInput, callback = (
   })
     .then(res => {
       for (var pair of res.headers.entries()) { // accessing the entries
-        if (pair[0] == 'set-session') { // key I'm looking for in this instance
+        if (pair[0] === 'set-session') { // key I'm looking for in this instance
           console.log("working")
         }
       }

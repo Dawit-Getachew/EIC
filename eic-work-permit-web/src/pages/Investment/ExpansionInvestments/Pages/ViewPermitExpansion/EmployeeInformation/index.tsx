@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState, useReducer, useEffect, FC } from "react"
 import {
   Grid, TextField, FormControl, FormLabel, RadioGroup,

@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default {
     ADD: "ADD",
     FETCH: "FETCH",
