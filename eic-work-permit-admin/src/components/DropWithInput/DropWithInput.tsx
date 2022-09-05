@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { FC, CSSProperties, ChangeEventHandler } from "react"
 import { Grid, Select, MenuItem, TextField } from "@mui/material";
 import "./style.css";

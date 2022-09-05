@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { FC } from "react"
 import { Box, Avatar, Typography, Card, Divider } from '@mui/material';
 import { styled } from '@mui/material/styles';

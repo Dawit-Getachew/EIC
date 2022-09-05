@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default (datetime: string) => `${datetime}:00.575Z`
 
 export const getCalenderDate = (datetime: any) => new Date(datetime).getDate() + "/" + Number(new Date(datetime).getMonth() + 1) + "/" + new Date(datetime).getFullYear()

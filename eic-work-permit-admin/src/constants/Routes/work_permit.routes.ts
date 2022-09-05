@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default {
   __PATH: "work-permit-service",
   ROUTE: "/work-permit-service",

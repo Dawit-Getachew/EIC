@@ -1,3 +1,4 @@
+/* eslint-disable*/
 import { IRenewWorkPermitInput } from "./types"
 
 const getValue = (value: any) => {

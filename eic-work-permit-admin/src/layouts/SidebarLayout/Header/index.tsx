@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useContext } from 'react';
 
 import { Box, Hidden, IconButton, Tooltip } from '@mui/material';

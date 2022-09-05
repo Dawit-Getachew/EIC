@@ -1,3 +1,4 @@
+/* eslint-disable*/
 import { unResolveEntity } from "src/helpers/resolveEntity"
 import Axios from "axios"
 import { IInvestmentPermitInput } from "src/models/InvestmentModels/investment_permit"

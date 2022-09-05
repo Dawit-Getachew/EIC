@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useReducer, useEffect, FC } from "react";
 import { Grid, TextField, FormControl, FormLabel } from "@mui/material";
 import Typography from "@mui/material/Typography";

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useEffect, useRef, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import TopBarContent from './TopBarContent';

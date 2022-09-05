@@ -1,14 +1,14 @@
 import bcrypt from "bcrypt";
-import crypto from "crypto";
-import nodemailer from "nodemailer";
+// import crypto from "crypto";
+// import nodemailer from "nodemailer";
 import AccountResolver, { FetchOne, Edit } from "./resolver";
 import { IBasicID, IBasicIDs, IAccount, IAccountDoc, IPostAccount, IEditAccount, ISigninAccount } from "../../Models/Account/account.types"
 import { Validator } from "../../Validator/Validator";
 import { AccountModel } from "../../Models/Account/account.schema";
-import { USER_QUEUES } from "../../Common/queue_names";
+// import { USER_QUEUES } from "../../Common/queue_names";
 import { AccountRoutes } from "../../Common/routes";
-import { RabbitMQProducer } from "../../Connections/RabbitMQ/rabbitmq_producer";
-import { Role } from "../../Common/constants";
+// import { RabbitMQProducer } from "../../Connections/RabbitMQ/rabbitmq_producer";
+// import { Role } from "../../Common/constants";
 
 export class AccountService {
   static async fetchAccounts() {

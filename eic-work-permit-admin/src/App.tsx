@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useRoutes } from 'react-router-dom';
 import routes from './router';
 import AdapterDateFns from '@mui/lab/AdapterDateFns';

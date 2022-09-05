@@ -1,3 +1,5 @@
+/* eslint-disable*/
+
 import axios, { AxiosResponse } from "axios";
 import * as actions from "../api";
 import endPoints from "../../constants/endPoints"

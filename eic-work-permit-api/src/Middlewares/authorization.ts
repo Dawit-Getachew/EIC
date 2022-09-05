@@ -7,7 +7,7 @@ class GeneralQuery {
   private isMutation: boolean = false;
   private queryName: string = ""
 
-  private allowedRoles: string[] = []
+  private allowedRoles: any[] = []
   private userRole!: Role
 
   private isAuthorized: boolean = false

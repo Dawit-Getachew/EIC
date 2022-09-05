@@ -1,8 +1,8 @@
+/* eslint-disable */
 import { useState } from 'react';
 import {
   Box,
   Typography,
-  Hidden,
   Button,
   CircularProgress,
   Grid

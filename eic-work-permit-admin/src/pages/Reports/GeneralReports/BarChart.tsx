@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { FC } from "react"
 import { PermitStatus } from "src/store/States/WorkPermit/WorkPermitApplications/types"
 import Charts, { Bar, ChartComponentProps } from 'react-chartjs-2'

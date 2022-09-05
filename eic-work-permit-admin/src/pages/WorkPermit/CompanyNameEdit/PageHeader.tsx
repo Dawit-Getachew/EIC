@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { FC, useState } from "react";
 import {
   Typography,

@@ -1,3 +1,5 @@
+/* eslint-disable*/
+
 import { IBasicDoc, IBasicDocument, IBasicID, IBasicIDs, IBusinessAddress } from "src/common/interface"
 import { PermitStatus } from '../WorkPermitApplications/types'
 

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import WorkPermitRoutes from "./Routes/work_permit.routes";
 
 export default {

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useState, useEffect } from "react"
 import { Document, Page, Text, View, StyleSheet, Font, PDFViewer, Image, PDFDownloadLink } from '@react-pdf/renderer';
 import { FC } from "react"

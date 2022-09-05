@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Grid, Button } from "@mui/material";
 import { FC } from "react";
 import CloudIcon from "src/assets/cloud-icon.png";

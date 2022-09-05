@@ -1,3 +1,4 @@
+/* eslint-disable */
 import {
   Modal, Box, Grid, FormControl, FormLabel, TextField,
   RadioGroup, Radio, FormControlLabel

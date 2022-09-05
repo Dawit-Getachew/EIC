@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Grid, Tooltip, IconButton, useTheme, CircularProgress } from "@mui/material"
 import { FC, useState } from "react"
 import { Actions as BufferActions } from "src/store/States/Buffer/"
