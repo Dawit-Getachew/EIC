@@ -1,0 +1,65 @@
+{
+    "name": "eic-work-permit-service",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "build": "tsc",
+        "start": "node -r dotenv/config ./dist/bin/www",
+        "dev": "nodemon --exec ts-node -r dotenv/config src/bin/www.ts",
+        "test": "nodemon --watch . --ext ts --exec \"mocha -r ts-node/register -r dotenv/config __tests__/**/**/*.test.ts\"",
+        "test:coverage": "nyc yarn test"
+    },
+    "nyc": {
+        "check-coverage": true,
+        "all": true,
+        "include": [
+            "__tests__/**/**/!(*.test.*).[tj]s?(x)"
+        ],
+        "exclude": [
+            "src/**/**/*.*"
+        ],
+        "reporter": [
+            "html",
+            "lcov",
+            "text",
+            "text-summary"
+        ],
+        "report-dir": "coverage"
+    },
+    "dependencies": {
+        "@types/bluebird": "^3.5.36",
+        "@types/crypto-js": "^4.1.0",
+        "@types/debug": "^4.1.7",
+        "@types/faker": "^5.5.9",
+        "@types/mongoose": "^5.11.97",
+        "@types/node": "^16.11.7",
+        "amqplib": "^0.8.0",
+        "bluebird": "^3.7.2",
+        "chalk": "*",
+        "crypto-js": "^4.1.1",
+        "debug": "~2.6.9",
+        "lodash": "^4.17.21",
+        "mongoose": "^6.0.12",
+        "nodemon": "^2.0.19"
+    },
+    "devDependencies": {
+        "@types/amqplib": "^0.8.2",
+        "@types/chai": "^4.3.0",
+        "@types/chalk": "^2.2.0",
+        "@types/dotenv": "^8.2.0",
+        "@types/lodash": "^4.14.177",
+        "@types/mocha": "^9.1.0",
+        "chai": "^4.3.4",
+        "chalk": "^4.1.2",
+        "dotenv": "^10.0.0",
+        "faker": "^5.5.3",
+        "jest": "^27.3.1",
+        "mocha": "^9.1.4",
+        "mocha-typescript": "^1.1.17",
+        "nyc": "^15.1.0",
+        "supertest": "^6.2.2",
+        "ts-jest": "^27.1.3",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.4.4"
+    }
+}
